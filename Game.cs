@@ -86,7 +86,7 @@ namespace C__Projects {
             } else if (choice == "9" && board[2, 2] == "9") {
                 board[2, 2] = piece;
             } else {
-                Console.WriteLine ("Spot taken, try again!");
+                Console.WriteLine ("Spot taken or incorrect input, try again!");
                 playTurn (isPlayerOne);
             }
         }
