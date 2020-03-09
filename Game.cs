@@ -2,7 +2,7 @@ using System;
 
 namespace C__Projects {
     class Game {
-        private String[, ] board;
+        private String[,] board;
         private String choice;
         private Boolean isPlayerOne;
         private Boolean winner = false;
