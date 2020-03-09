@@ -54,6 +54,7 @@ namespace C__Projects {
             while (isNum == false) {
                 Console.WriteLine (p + " choose a spot!");
                 choice = Console.ReadLine ();
+                choice = choice.Trim ();
                 isNum = int.TryParse (choice, out num);
                 if (isNum == false) Console.WriteLine ("Incorrect input try again!");
             }
