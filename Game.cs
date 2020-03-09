@@ -11,7 +11,10 @@ namespace C__Projects {
         private Boolean isTie;
         public void startGame () {
             isPlayerOne = true;
-            board = new String[3, 3] { { "1", "2", "3" }, { "4", "5", "6" }, { "7", "8", "9" }
+            board = new String[3, 3] { 
+                { "1", "2", "3" }, 
+                { "4", "5", "6" }, 
+                { "7", "8", "9" }
             };
             setBoard ();
             turn = 0;
